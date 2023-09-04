@@ -1,0 +1,24 @@
+/* styles.css (light theme) */
+:root {
+    --bg-color: #ff0000;
+    --text-color: #333;
+  }
+  /* dark-styles.css (dark theme) */
+  :root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+  }
+ 
+  /* styles.css */
+@media (max-width: 768px) {
+    /* Adjust styles for mobile devices */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles for tablets */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Adjust styles for desktops */
+  }
+  

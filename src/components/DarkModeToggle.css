@@ -1,0 +1,22 @@
+/* DarkModeToggle.css */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .dark-mode-toggle button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  [data-theme='dark'] .dark-mode-toggle button {
+    background-color: var(--button-bg-color-dark);
+    color: var(--button-text-color-dark);
+  }
+  
